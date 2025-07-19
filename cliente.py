@@ -22,8 +22,10 @@ ansuwa = input(pregunta + " ")
 
 client_socket.send(ansuwa.encode())
 
-mensaje_00 = client_socket.recv(1024).decode()
-print(mensaje_00)
-
+mens = client_socket.recv(1024).decode()
+dat = client_socket.recv(1024).decode()
+print(mens)
+print(dat)
+client_socket.send("Adios".encode())
 
 client_socket.close()

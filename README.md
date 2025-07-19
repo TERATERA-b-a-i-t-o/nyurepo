@@ -1,2 +1,2 @@
 # nyurepo
-Repositorio para la materia Programacion sobre redes
+Repositorio de Juan Sebastian Vasquez para la materia Programacion sobre redes
